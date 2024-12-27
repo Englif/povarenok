@@ -1,0 +1,19 @@
+{
+  "name": "povarnone",
+  "version": "1.0.0",
+  "description": "Приложение для просмотра рецептов и приготовления блюд",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Englif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
